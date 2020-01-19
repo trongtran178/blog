@@ -1,4 +1,4 @@
-# blog
+# blog-frontend
 
 > A place to keep my experiences.
 
