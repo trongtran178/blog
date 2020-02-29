@@ -1,5 +1,6 @@
 const colors = require('vuetify/es5/util/colors').default
-
+const nodeExternals = require('webpack-node-externals')
+const webpack = require('webpack')
 module.exports = {
   mode: 'spa',
   /*
@@ -25,12 +26,14 @@ module.exports = {
   ** Global CSS
   */
   css: [
+
   ],
   /*
   ** Plugins to load before mounting the App
   */
   plugins: [
-    '@/plugins/firebase.js'
+    '@/plugins/firebase.js',
+    { src: '~/plugins/vue-froala-wysiwyg.js', ssr: false },
   ],
   /*
   ** Nuxt.js dev-modules

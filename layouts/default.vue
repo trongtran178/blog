@@ -11,7 +11,10 @@
         <v-avatar style="border-radius: 100%;" class="mt-2" width="120px" height="120px">
           <img src="/images/my-avatar.png" />
         </v-avatar>
-        <v-card-title>Xin chào, tôi là Trọng <img src="https://img.icons8.com/color/24/000000/smiling.png"></v-card-title>
+        <v-card-title>
+          Xin chào, tôi là Trọng
+          <img src="https://img.icons8.com/color/24/000000/smiling.png" />
+        </v-card-title>
       </v-card>
     </v-navigation-drawer>
     <v-app-bar app src="https://cdn.vuetifyjs.com/images/backgrounds/bg-2.jpg">
