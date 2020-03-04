@@ -1,18 +1,53 @@
 <template>
   <v-container>
     <v-row>
-      <post :title="title" :content="content"></post>
-      <v-divider></v-divider>
-      <post :title="title" :content="content"></post>
-      <v-divider></v-divider>
-      <post :title="title" :content="content"></post>
-      <v-divider></v-divider>
-      <post :title="title" :content="content"></post>
-      <v-divider></v-divider>
-      <post :title="title" :content="content"></post>
-      <v-divider></v-divider>
-      <post :title="title" :content="content"></post>
-      <v-divider></v-divider>
+      <v-col cols="6" md="4">
+        <v-card
+          style="border-radius: 20px;"
+          min-height="200"
+          class="d-flex flex-column justify-center align-center"
+          img="images/background/category-card/programming-in-night2.png"
+        >
+          <div class="text-center title font-weight-medium px-3">Lập trình</div>
+        </v-card>
+      </v-col>
+      <v-col cols="6" md="4">
+        <v-card
+          style="border-radius: 20px;"
+          min-height="200"
+          class="d-flex flex-column justify-center align-center"
+        >
+          <div class="text-center title font-weight-medium px-3">Tiếng Anh</div>
+        </v-card>
+      </v-col>
+      <v-col cols="6" md="4">
+        <v-card
+          style="border-radius: 20px;"
+          min-height="200"
+          class="d-flex flex-column justify-center align-center"
+        >
+          <div class="text-center title font-weight-medium px-3">Âm nhạc</div>
+        </v-card>
+      </v-col>
+      <v-col cols="6" md="4">
+        <v-card
+          style="border-radius: 20px;"
+          min-height="200"
+          class="d-flex flex-column justify-center align-center"
+        >
+          <div class="text-center title font-weight-medium px-3">Sách</div>
+        </v-card>
+      </v-col>
+      <v-col cols="6" md="4">
+        <v-card
+          style="border-radius: 20px;"
+          min-height="200"
+          class="d-flex flex-column justify-center align-center"
+           img="images/background/category-card/journey.png"
+        >
+          <div class="text-center title font-weight-medium px-3">Những chuyến đi & Trải nghiệm</div>
+        </v-card>
+      </v-col>
     </v-row>
   </v-container>
 </template>
