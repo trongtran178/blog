@@ -5,6 +5,8 @@
         <v-card
           style="border-radius: 20px;"
           min-height="200"
+          hover
+          @click="$router.push('/posts/program/java-virtual-machine-and-its-architecture')"
           class="d-flex flex-column justify-center align-center"
           img="images/background/category-card/programming-in-night2.png"
         >
@@ -13,6 +15,7 @@
       </v-col>
       <v-col cols="6" md="4">
         <v-card
+          hover
           style="border-radius: 20px;"
           min-height="200"
           class="d-flex flex-column justify-center align-center"
@@ -22,6 +25,7 @@
       </v-col>
       <v-col cols="6" md="4">
         <v-card
+          hover
           style="border-radius: 20px;"
           min-height="200"
           class="d-flex flex-column justify-center align-center"
@@ -31,6 +35,7 @@
       </v-col>
       <v-col cols="6" md="4">
         <v-card
+          hover
           style="border-radius: 20px;"
           min-height="200"
           class="d-flex flex-column justify-center align-center"
@@ -40,10 +45,11 @@
       </v-col>
       <v-col cols="6" md="4">
         <v-card
+          hover
           style="border-radius: 20px;"
           min-height="200"
           class="d-flex flex-column justify-center align-center"
-           img="images/background/category-card/journey.png"
+          img="images/background/category-card/journey.png"
         >
           <div class="text-center title font-weight-medium px-3">Những chuyến đi & Trải nghiệm</div>
         </v-card>
